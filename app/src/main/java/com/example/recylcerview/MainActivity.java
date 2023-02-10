@@ -11,6 +11,10 @@ import java.util.List;
 
 public class MainActivity<MyAdapter> extends AppCompatActivity {
 
+    private RecyclerView recyclerView;
+    private List<String> itemList;
+    private MyAdapter adapter;
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
