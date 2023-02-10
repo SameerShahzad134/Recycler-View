@@ -14,10 +14,6 @@ public class MainActivity<MyAdapter> extends AppCompatActivity {
     private RecyclerView recyclerView;
     private List<String> itemList;
     private MyAdapter adapter;
-
-    private RecyclerView recyclerView;
-    private List<String> itemList;
-    private MyAdapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
